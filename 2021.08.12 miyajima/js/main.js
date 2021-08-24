@@ -18,9 +18,9 @@ function check(){
 		return true; 
 	}
 }
-	const target = document.getElementById("humbarger_box");
+	const target = document.getElementById("hamburger_box");
 target.addEventListener('click', () => {
   target.classList.toggle('open');
-  const nav = document.getElementById("humbarger_eat");
+  const nav = document.getElementById("hamburger_eat");
   nav.classList.toggle('in');
 });
